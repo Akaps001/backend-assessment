@@ -1,0 +1,11 @@
+@PhoneLookupApi_HostAddress = http://localhost:5102
+
+GET {{PhoneLookupApi_HostAddress}}/api/phone-numbers/2348033432323
+Accept: application/json
+
+###
+
+GET {{PhoneLookupApi_HostAddress}}/api/phone-numbers/233241234567
+Accept: application/json
+
+###
